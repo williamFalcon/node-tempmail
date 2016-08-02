@@ -1,0 +1,26 @@
+{
+  "name": "tempmail",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./tempmail.js",
+  "bin": {
+    "tempmail": "./tempmail.js"
+  },
+  "man": "./man/tempmail.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trevorsenior/node-tempmail.git"
+  },
+  "author": "Trevor Senior <trevor@tsenior.com> (http://tsenior.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.16.0",
+    "main": "^1.0.1",
+    "request": "^2.36.0",
+    "when": "^3.2.2"
+  },
+  "devDependencies": {
+    "chai-as-promised": "^4.1.1",
+    "mocha": "^1.20.0"
+  }
+}
